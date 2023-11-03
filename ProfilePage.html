@@ -13,44 +13,48 @@
         </header>
     <div class="container d-flex justify-content-center align-items-center">
         <div>
-            <h1>Edit Profile</h1>
-            <div class="border border-start-0 border-end-0">
-                <div class="d-flex">
-                    <div>
+            <h1 class="fw-normal container" style="font-size: 3.8rem;">Edit Profile</h1>
+            <div class="border border-start-0 border-end-0 mb-3">
+                <div class="d-flex mt-3 mb-3 container">
+                    <div class="me-3">
                         <img src="./assets/avatar.png" alt="" width="120" height="120">
                     </div>
                     <div>
-                        <div>
-                            <div class="border-bottom">
-                                <input type="text">
-                               <p class="mb-0">Language:</p>
-                                <select class="form-select" aria-label="Size 3 select example">
+                        <div class="container">
+                            <div class="border-bottom mb-3 ">
+                                <input class="mb-4 text-bg-secondary border-0" style=" width: 300px;" type="text">
+                               <p class="mb-1 text-secondary fs-5">Language:</p>
+                                <select class="form-select mb-4 text-bg-dark rounded-0 py-0 font-monospace" style="max-width: max-content;" aria-label="Size 3 select example">
                                     <option selected>English</option>
                                     <option value="1">Italian</option>
                                     <option value="2">Spanish</option>
                                     <option value="3">Franch</option>
                                   </select>
                             </div>
-                            <div class="border-bottom">
-                                <p class="mb-0">Maturity Settings</p>
-                                <button>ALL MATURITY RATINGS</button>
-                                <p>Show titles of all maturity ratings for this profile.</p>
-                                <button>EDIT</button>
+                            <div class="border-bottom mb-3">
+                                <p class="mb-2 h6 text-secondary">Maturity Settings:</p>
+                                <button class="btn text-bg-secondary rounded-0 p-0 px-2 fw-semibold mb-2">ALL MATURITY RATINGS</button>
+                                <p style="font-size: .8rem;">Show titles of all maturity ratings for this profile.</p>
+                                <button class="btn btn-outline-secondary rounded-0 p-0 px-3 mb-4 font-monospace">EDIT</button>
                             </div>
-                            <div>
+                            <div class="d-flex flex-column">
                                 <p>Autoplay controls</p>
-                                <input type="checkbox" name="" id="">
-                                <span>Autoplay next episode in a series on all devices:</span>
-                                <input type="checkbox" name="" id="">
-                                <span>Autoplay previews while browsing on all devices:</span>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Autoplay next episode in a series on all devices:
+                                  </label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                    Autoplay previews while browsing on all devices:
+                                  </label>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <button>SAVE</button>
-            <button>CANCEL</button>
-            <button>DELETE PROFILE</button>
+            <button class="btn btn-light rounded-0 px-4 me-3 font-monospace fw-semibold">SAVE</button>
+            <button class="btn btn-outline-secondary rounded-0 px-4 me-3 font-monospace">CANCEL</button>
+            <button class="btn btn-outline-secondary rounded-0 px-4 me-3 font-monospace">DELETE PROFILE</button>
         </div>
     </div>
     </div>
